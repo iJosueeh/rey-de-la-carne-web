@@ -1,10 +1,6 @@
-const navToggle = document.querySelector(".nav-toggler");
-const navMenuOf = document.querySelector(".nav-menu");
-const navIconsOf = document.querySelector(".nav-icons");
+const buttonNav = document.querySelector(".nav-toggler");
+const navMenu = document.querySelector(".nav-menu");
 
-navToggle.addEventListener("click", () => {
-  navMenuOf.classList.remove("nav-menu_visible");
-  navMenuOf.classList.toggle("nav-menu")
-  navMenuOf.classList.remove("nav-icons_visible");
-  navMenuOf.classList.toggle("nav-icons");
+buttonNav.addEventListener("click", () => {
+  navMenu.classList.toggle("show");
 });
