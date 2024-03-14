@@ -99,3 +99,18 @@
         width: 100%;
     }
 }
+
+@media (max-width: 456px) {
+    .nav-title h2 {
+        font-size: 15px;
+    }
+
+    .nav-icons {
+        margin: 0 20px;
+    }
+
+    .nav-icons a{
+        font-size: 14px;
+    }
+
+}
