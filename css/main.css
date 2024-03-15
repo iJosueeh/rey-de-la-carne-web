@@ -1,6 +1,6 @@
 .main-container {
     height: 770px;
-    background-image: url("src/backgroud/background-burger.jpg");
+    background-image: url("./src/backgroud/background-burger.jpg");
     background-size: cover;
     background-position: center;
     
