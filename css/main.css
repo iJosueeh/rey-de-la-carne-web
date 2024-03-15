@@ -1,0 +1,61 @@
+.main-container {
+    height: 770px;
+    background-image: url(/src/backgroud/background-burger.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.text-main {
+    text-align: center;
+    grid-column: 1/-1;
+    padding-top: 300px;;
+}
+
+.text-main h1 {
+    font-size: 82px;
+    font-weight: 200;
+    color: #FF9F59;
+    user-select: none;
+}
+
+.text-main p {
+    color: white;
+    font-size: 22px;
+    padding-bottom: 90px;
+}
+
+.text-main a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #FF9F59;
+    border-radius: 20px;
+    padding: 20px 80px;
+    transition: all 0.3s ease 0s;
+}
+
+.text-main a:hover {
+    color: black;
+    background-color: #FFB800;
+} 
+
+@media (max-width: 584px){
+    .main-container {
+        height: 750px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+
+    .text-main h1 {
+        font-size: 42px;
+    }
+    
+    .text-main p {
+        font-size: 18px;
+    }
+}

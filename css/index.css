@@ -12,6 +12,8 @@
     grid-template-columns: repeat(12, 1fr);
     width: 90%;
     max-width: 1100px;
+    gap: 10px;
     height: 100%;
     margin: auto;
+    overflow: hidden;
 }
