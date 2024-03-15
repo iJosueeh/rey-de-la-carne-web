@@ -1,0 +1,35 @@
+.main-about-me {
+    height: 650px;
+    background-color: #161616;
+}
+
+.about-text {
+    padding-top: 105px;
+    grid-column: 1/5;
+}
+
+.about-text h2 {
+    color: #FFB800;
+    padding-bottom: 20px;
+    font-size: 38px;
+}
+
+.about-text p {
+    color: white;
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+.about-text a {
+    background-color: #FF9F59;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 22px 58px;
+    transition: all 0.3s ease 0s;
+}
+
+.about-text a:hover {
+    background-color: #FFB800;
+    color: black;
+}
