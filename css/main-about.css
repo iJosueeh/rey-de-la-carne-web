@@ -66,3 +66,30 @@
     height: 500px;
     width: 320px;
 }
+
+@media (max-width: 700px) {
+
+    .main-about-me {
+        overflow-y: auto;
+        height: 100%
+    }
+
+    .about-text, .about-me-img, .horario-about {
+        grid-column: 1/-1;
+        text-align: center;
+    }
+
+    .about-text p {
+        font-size: 16px;
+    }
+
+    .horario-about p  {
+        padding-bottom: 10px;
+    }
+
+    .about-img {
+        padding-bottom: 120px;
+        height: 580px;
+        max-width: 100%;
+    }
+}
