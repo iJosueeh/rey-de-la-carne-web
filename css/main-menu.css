@@ -43,8 +43,8 @@
 .menu-card h4 {
     font-size: 20px;
     color: #FF9F59;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
     padding-bottom: 48px;
 }
 
@@ -95,22 +95,24 @@
     color: black;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 688px) {
     .menu-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        width: 70%;
     }
 
     .menu-card h4 {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     .menu-stars {
-        font-size: 14px;
+        font-size: 28px;
+        padding-bottom: 20px;
     }
 
     .menu-buttom {
-        padding-left: 20px;
-        padding-right: 52px;
+        padding-left: 130px;
     }
 }
 
@@ -129,7 +131,7 @@
     }
 }
 
-@media (max-width: 654px) {
+@media (max-width: 688px) {
     .menu-card h4 {
         font-size: 22px;
     }
@@ -139,7 +141,7 @@
     }
 
     .menu-buttom {
-        padding-right: 24px;
+        padding-right: 33px;
     }
 }
 
