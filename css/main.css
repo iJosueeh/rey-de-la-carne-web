@@ -38,7 +38,18 @@
 .text-main a:hover {
     color: black;
     background-color: #FFB800;
-} 
+}
+
+@media (max-width: 768px) {
+    .text-main h1 {
+        font-size: 57px;
+    }
+
+    .text-main p {
+        font-size: 20px;
+    }
+}
+
 
 @media (max-width: 584px){
     .main-container {

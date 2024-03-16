@@ -41,7 +41,7 @@
 }
 
 .menu-card h4 {
-    font-size: 28px;
+    font-size: 20px;
     color: #FF9F59;
     padding-left: 15px;
     padding-right: 15px;
@@ -93,4 +93,67 @@
 
 .menu-buttom:hover {
     color: black;
+}
+
+@media (max-width: 768px) {
+    .menu-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .menu-card h4 {
+        font-size: 24px;
+    }
+
+    .menu-stars {
+        font-size: 14px;
+    }
+
+    .menu-buttom {
+        padding-left: 20px;
+        padding-right: 52px;
+    }
+}
+
+@media (max-width: 700px) {
+    .menu-card h4 {
+        font-size: 24px;
+    }
+
+    .menu-stars {
+        font-size: 14px;
+    }
+
+    .menu-buttom {
+        padding-left: 20px;
+        padding-right: 22px;
+    }
+}
+
+@media (max-width: 654px) {
+    .menu-card h4 {
+        font-size: 22px;
+    }
+
+    .menu-stars {
+        font-size: 10px;
+    }
+
+    .menu-buttom {
+        padding-right: 24px;
+    }
+}
+
+@media (max-width: 584px) {
+    .menu-card h4 {
+        font-size: 18px;
+    }
+
+    .menu-stars {
+        font-size: 7px;
+    }
+
+    .menu-buttom {
+        font-size: 12px;
+        padding-right: 26px;
+    }
 }
