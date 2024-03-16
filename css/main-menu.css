@@ -1,0 +1,96 @@
+.menu-seccion {
+    background-color: #111111;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 92%;
+    gap: 18px;
+    max-width: 1148px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+
+.menu-title {
+    grid-column: 1/-1;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.menu-title h2 {
+    text-align: center;
+    font-size: 48px;
+    color: #FFB800;
+}
+
+.menu-card {
+    background-color: #212121;
+    border: 3px solid #FFB800;
+}
+
+.menu-card img {
+    height: 280px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20px;
+}
+
+.menu-card h4 {
+    font-size: 28px;
+    color: #FF9F59;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 48px;
+}
+
+.card-time {
+    display: flex;
+}
+
+.card-time i {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    color: #FFB800;
+    font-size: 18px;
+}
+
+.card-time p {
+    padding-left: 12px;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.card-star-text {
+    display: flex;
+    gap: 90px;
+}
+
+.menu-stars {
+    padding-left: 15px;
+    padding-bottom: 20px;
+    color: #FFB800;
+    font-size: 18px;
+}
+
+.menu-buttom {
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 35px;
+    padding-right: 40px;
+    background-color: #FFB800;
+    color: white;
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+
+.menu-buttom:hover {
+    color: black;
+}
