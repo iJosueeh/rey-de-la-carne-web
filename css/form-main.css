@@ -1,65 +1,116 @@
 .reservar-main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
     background-image: url("https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     background-position: center;
 }
 
-.reservar-title h2 {
+/* .reservar-title h2 {
+    grid-column: 1/-1;
     background-color: #111111;
     text-align: center;
     font-size: 48px;
     color: #FFB800;
     padding-top: 70px;
     padding-bottom: 60px;
+} */
+
+.form-container {
+    max-width: 600px;
+    width: 100%;
+    background-color: white; 
+    box-shadow: 8px 8px 10px rgb(0, 0, 0, 0.5);
+    padding: 25px 30px;
+    border-radius: 5px;
 }
 
-.reservar-form {
-    grid-column: 4/10;
-    align-content: center;
-    padding-top: 200px;
-    height: 850px;
-}
-
-.form-reservar {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
-    align-content: center;
-    gap: 10px;
-    background-color: #111111;
-    border-radius: 10px;
-    height: 280px;
-    color: black;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.form-reservar h4 {
-    grid-column: 1/-1;
-    color: #FFB800;
+.form-container .form-title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
     text-align: center;
-    font-size: 28px;
-    margin-bottom: 0;
 }
 
-.form-reservar form button, 
-form label, 
-form input, 
-form textarea {
-    width: 100%;
-    padding: .7rem;
-    border: none;
-    text-align: left;
+.form-container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form .user-details .input-box {
+    margin: 15px 0 12px 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box .details {
+    display: block;
+    font-weight: 500px;
+    margin-bottom: 5px;
+}
+
+form .user-details .input-box input, .input-box textarea {
+    height: 45px;
+    width: 95%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 14px;
+    transition: all 0.3s ease 0s;
+}
+
+.input-box textarea {
     resize: none;
-    color: #FFB800;
+    width: 503px;
+    max-width: 510px;
+    height: 100px;
+    padding-top: 15px;
 }
 
-.form-reserva form textarea {
-    width: 100%;
-    height: 200px;
+form .user-details .input-box input:hover, 
+.input-box textarea:hover {
+    border: 1px solid #0075FF;
 }
 
-.form-container-submit button {
-    grid-column: 1/ span 1;
+form .buttom-form {
+    height: 45px;
+    margin: 15px 0;
+    padding-left: 15px;
+    padding-right: 21px;
+}
+
+form .buttom-form input {
+    height: 100%;
     width: 100%;
+    outline: none;
+    background-color: #FFB800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+form .buttom-form input:hover {
+    color: black;
+}
+
+@media (max-width: 584px) {
+    .form-container {
+        max-width: 100%;
+    }
+
+    form .user-details .input-box input, .input-box textarea {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .input-box textarea {
+        width: 250px;
+        max-width: none; 
+    }
 }
