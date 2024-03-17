@@ -7,7 +7,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     width: 92%;
-    /* gap: 18px; */
+    gap: 18px;
     max-width: 1148px;
     height: auto;
     margin: auto;

@@ -1,13 +1,16 @@
 .reservar-main {
-    background-image: url("image/dan-gold-E6HjQaB7UEA-unsplash.jpg");
+    background-image: url("https://raw.githubusercontent.com/iJosueeh/images/main/dan-gold-E6HjQaB7UEA-unsplash.jpg?token=GHSAT0AAAAAACOMID3D6YYP6TSDR4PWXH7QZPWNPFQ");
     background-size: cover;
     background-position: center;
 }
 
 .reservar-title h2 {
+    background-color: #111111;
+    text-align: center;
     font-size: 48px;
     color: #FFB800;
-    padding-bottom: 20px;
+    padding-top: 70px;
+    padding-bottom: 60px;
 }
 
 .reservar-form {
