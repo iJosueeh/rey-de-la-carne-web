@@ -1,0 +1,62 @@
+.reservar-main {
+    background-image: url("/image/dan-gold-E6HjQaB7UEA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.reservar-title h2 {
+    font-size: 48px;
+    color: #FFB800;
+    padding-bottom: 20px;
+}
+
+.reservar-form {
+    grid-column: 4/10;
+    align-content: center;
+    padding-top: 200px;
+    height: 850px;
+}
+
+.form-reservar {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    align-content: center;
+    gap: 10px;
+    background-color: #111111;
+    border-radius: 10px;
+    height: 280px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.form-reservar h4 {
+    grid-column: 1/-1;
+    color: #FFB800;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.form-reservar form button, 
+form label, 
+form input, 
+form textarea {
+    width: 100%;
+    padding: .7rem;
+    border: none;
+    text-align: left;
+    resize: none;
+    color: #FFB800;
+}
+
+.form-reserva form textarea {
+    width: 100%;
+    height: 200px;
+}
+
+.form-container-submit button {
+    grid-column: 1/ span 1;
+    width: 100%;
+}

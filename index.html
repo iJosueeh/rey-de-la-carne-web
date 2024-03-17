@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/main-about.css">
     <link rel="stylesheet" href="css/main-menu.css">
+    <link rel="stylesheet" href="css/form-main.css">
     <script defer src="js/navbar.js"></script>
 </head>
 
@@ -28,7 +29,7 @@
                     <a href="#about-me">NOSOTROS</a>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="#">RESERVACIÓN</a>
+                    <a href="#reservacion-main">RESERVACIÓN</a>
                 </li>
                 <li class="nav-menu-item">
                     <a href="#">CONTACTO</a>
@@ -93,7 +94,8 @@
                     <img src="image/katrine-lucas-jcJAlUd9-9c-unsplash (1).jpg" alt="img box one">
                     <h4>Hamburguesa de doble pollo con cebolla</h4>
                     <div class="card-time">
-                        <i class="bi bi-alarm-fill"></i><p>18 minutos</p>
+                        <i class="bi bi-alarm-fill"></i>
+                        <p>18 minutos</p>
                     </div>
                     <div class="card-star-text">
                         <div class="menu-stars">
@@ -110,7 +112,8 @@
                     <img src="image/amirali-mirhashemian-88YAXjnpvrM-unsplash (1).jpg" alt="img box two">
                     <h4>Hamburguesa doble carne con tocino</h4>
                     <div class="card-time">
-                        <i class="bi bi-alarm-fill"></i><p>24 minutos</p>
+                        <i class="bi bi-alarm-fill"></i>
+                        <p>24 minutos</p>
                     </div>
                     <div class="card-star-text">
                         <div class="menu-stars">
@@ -125,9 +128,10 @@
                 </article>
                 <article class="menu-card">
                     <img src="image/backgroundburger.jpg" alt="img box tree">
-                    <h4>Hamburguesa clásica de carne</h4>
+                    <h4>Hamburguesa clásica de carne y queso</h4>
                     <div class="card-time">
-                        <i class="bi bi-alarm-fill"></i><p>15 minutos</p>
+                        <i class="bi bi-alarm-fill"></i>
+                        <p>15 minutos</p>
                     </div>
                     <div class="card-star-text">
                         <div class="menu-stars">
@@ -144,7 +148,8 @@
                     <img src="image/chad-montano--GFCYhoRe48-unsplash (1).jpg" alt="img box four">
                     <h4>Hamburguesa de carne con jamón y huevo</h4>
                     <div class="card-time">
-                        <i class="bi bi-alarm-fill"></i><p>17 minutos</p>
+                        <i class="bi bi-alarm-fill"></i>
+                        <p>17 minutos</p>
                     </div>
                     <div class="card-star-text">
                         <div class="menu-stars">
@@ -161,7 +166,8 @@
                     <img src="image/amirali-mirhashemian-sc5sTPMrVfk-unsplash (1).jpg" alt="img box fix">
                     <h4>Hamburguesa con crema de rocoto</h4>
                     <div class="card-time">
-                        <i class="bi bi-alarm-fill"></i><p>20 minutos</p>
+                        <i class="bi bi-alarm-fill"></i>
+                        <p>20 minutos</p>
                     </div>
                     <div class="card-star-text">
                         <div class="menu-stars">
@@ -178,7 +184,8 @@
                     <img src="image/amirali-mirhashemian-JqnuWlHmDfE-unsplash (1).jpg" alt="img box six">
                     <h4>Hamburguesa especial Rey de la Carne</h4>
                     <div class="card-time">
-                        <i class="bi bi-alarm-fill"></i><p>30 minutos</p>
+                        <i class="bi bi-alarm-fill"></i>
+                        <p>30 minutos</p>
                     </div>
                     <div class="card-star-text">
                         <div class="menu-stars">
@@ -194,18 +201,31 @@
             </div>
         </section>
         <section id="reservacion-main" class="reservar-main">
+            <div class="reservar-title">
+                <h2>RESERVACIÓN</h2>
+            </div>
             <div class="grid">
-                <div class="reservar-title">
-                    <h2>RESERVACIÓN</h2>
-                </div>
                 <div class="reservar-form">
                     <form class="form-reservar">
-                        <input class="form-box" type="text" name="nombre-form" placeholder="Nombre">
-                        <input class="form-box" type="text" name="apellido-form" placeholder="Apellido">
-                        <input class="form-box" type="date" name="fecha-cita" placeholder="Fecha">
-                        <input class="form-box" type="tel" name="photo-number" placeholder="Número Telefonico">
-                        <textarea class="text-area" id="descripcion-form" name="description-text" placeholder="Escriba su mensaje"></textarea>
-                        <button class="button-form" type="submit">RESERVAR</button>
+                        <h4>RESERVACIÓN</h4>
+                        <div>
+                            <label for="nombre-form">Nombre:</label>
+                            <input class="form-box" id="nombre-form" type="text" name="nombre-form" required>
+                            <label for="apellido-form">Apellido:</label>
+                            <input class="form-box" id="apellido-form" type="text" name="apellido-form" required>
+                        </div>
+                        <div>
+                            <label for="fecha-cita">Fecha:</label>
+                            <input class="form-box" id="fecha-cita" type="date" name="fecha-cita" required>
+                            <label for="photo-number">Número Telefonico</label>
+                            <input class="form-box" id="photo-number" type="tel" name="photo-number" required>
+                        </div>
+                        <div class="form-container-submit">
+                            <label for="descripcion-form">Mensaje</label>
+                            <textarea class="text-area" id="descripcion-form" name="description-text" readonly
+                                required>Escriba su mensaje</textarea>
+                            <button class="button-form" type="submit">RESERVAR</button>
+                        </div>
                     </form>
                 </div>
             </div>
