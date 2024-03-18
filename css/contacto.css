@@ -1,0 +1,73 @@
+.contacto-container {
+    background-color: #161616;
+    height: 100%;
+    max-height: 800px;
+    padding-bottom: 70px;
+}
+
+.contacto-title {
+    color: #FFB800;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    font-size: 48px;
+}
+
+.contacto-info {
+    grid-column: 1/6;
+}
+
+.redes-title, .direction-title, .phone-number-title {
+    display: flex;
+    align-content: center;
+    padding-bottom: 10px;
+}
+
+.redes-title h3, .direction-title h3,
+.phone-number-title h3 {
+    color: #FFB800;
+    font-size: 26px;
+}
+
+.redes-title i, .direction-title i,
+.phone-number-title i {
+    padding-right: 10px;
+    color: #FFB800;
+    font-size: 26px;
+}
+
+.contacto-direction {
+    color: white;
+    padding-bottom: 20px;
+}
+
+.redes-links, .phone-number-info {
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+.redes-links {
+    padding-bottom: 20px;
+}
+
+.redes-links li a {
+    text-decoration: none;
+    color: #0085FF;
+}
+
+.phone-number-info li {
+    color: white;
+}
+
+.phone-number-info i {
+    padding-right: 5px;
+    color: aquamarine;
+}
+
+.contacto-img {
+    grid-column: 8/12;
+}
+
+.contacto-img img {
+    width: 100%;
+}

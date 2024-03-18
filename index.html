@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/main-about.css">
     <link rel="stylesheet" href="css/main-menu.css">
     <link rel="stylesheet" href="css/form-main.css">
+    <link rel="stylesheet" href="css/contacto.css">
     <script defer src="js/navbar.js"></script>
 </head>
 
@@ -201,65 +202,75 @@
             </div>
         </section>
         <section id="reservacion-main" class="reservar-main">
-                <div class="form-container">
-                    <div class="form-title">Reservación</div>
-                    <form action="#" method="post">
-                        <div class="user-details">
-                            <div class="input-box">
-                                <span class="details">Nombre completo</span>
-                                <input type="text" placeholder="Ingresa su nombre completo" required>
-                            </div>
-                            <div class="input-box">
-                                <span class="details">Correo electronico</span>
-                                <input type="email" placeholder="Ingresa correo electronico" required>
-                            </div>
-                            <div class="input-box">
-                                <span class="details">Número telefonico</span>
-                                <input type="tel" placeholder="Ingresa su número telefonico" required>
-                            </div>
-                            <div class="input-box">
-                                <span class="details">Fecha</span>
-                                <input type="date" placeholder="Ingresa la fecha para reservar" required>
-                            </div>
-                            <div class="input-box">
-                                <span class="details">Descripción</span>
-                                <textarea required placeholder="Ingresa la información que nos quiera proporcionar para la reservación"></textarea>
-                            </div>
+            <div class="form-container">
+                <div class="form-title">Reservación</div>
+                <form action="#" method="post">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Nombre completo</span>
+                            <input type="text" placeholder="Ingresa su nombre completo" required>
                         </div>
-                        <div class="buttom-form">
-                            <input type="submit" value="RESERVAR">
+                        <div class="input-box">
+                            <span class="details">Correo electronico</span>
+                            <input type="email" placeholder="Ingresa correo electronico" required>
                         </div>
-                    </form>
-                </div>
+                        <div class="input-box">
+                            <span class="details">Número telefonico</span>
+                            <input type="tel" placeholder="Ingresa su número telefonico" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Fecha</span>
+                            <input type="date" placeholder="Ingresa la fecha para reservar" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Descripción</span>
+                            <textarea required
+                                placeholder="Ingresa la información que nos quiera proporcionar para la reservación"></textarea>
+                        </div>
+                    </div>
+                    <div class="buttom-form">
+                        <input type="submit" value="RESERVAR">
+                    </div>
+                </form>
+            </div>
         </section>
         <section id="main-contacto" class="contacto-container">
             <h2 class="contacto-title">CONTACTOS</h2>
             <div class="grid">
                 <article class="contacto-info">
                     <div class="contacto-direction">
-                        <i class="bi bi-geo-alt"></i><h3>DIRECCIÓN</h3><br>
+                        <div class="direction-title">
+                            <i class="bi bi-geo-alt"></i>
+                            <h3>DIRECCIÓN</h3>
+                        </div>
                         <p>José Cossio 222 - Magdalena Cuadra 10 Av. del Ejercito</p>
                     </div>
                     <div class="contacto-redes">
-                        <i class="bi bi-chat-dots-fill"></i><h3>REDES SOCIALES</h3><br>
-                        <ul>
-                            <il><a href="#">Facebook</a></il>
+                        <div class="redes-title">
+                            <i class="bi bi-chat-dots-fill"></i>
+                            <h3>REDES SOCIALES</h3>
+                        </div>
+                        <ul class="redes-links">
+                            <li><a href="#">Facebook</a></li>
                             <li><a href="#">Twitter</a></li>
                             <li><a href="#">Instagram</a></li>
                             <li><a href="#">Linkedln</a></li>
                         </ul>
                     </div>
                     <div class="contacto-numbers">
-                        <i class="bi bi-telephone"></i><h3>NÚMERO TELEFÓNICO</h3>
-                        <ul>
-                            <li><i class="bi bi-telephone"></i> +51 989-234-39</li>                            </li>
+                        <div class="phone-number-title">
+                            <i class="bi bi-telephone"></i>
+                            <h3>NÚMERO TELEFÓNICO</h3>
+                        </div>
+                        <ul class="phone-number-info">
+                            <li><i class="bi bi-telephone"></i> +51 989-234-39</li>
                             <li><i class="bi bi-whatsapp"></i> +51 72797596</li>
                         </ul>
                     </div>
                 </article>
-                <article>
-                    <img src="#" alt="image-contacto">
-                </article>
+                <div class="contacto-img">
+                    <img src="image/eiliv-aceron-mwbjyRUTlIQ-unsplash (1).jpg" alt="image-contacto">
+                </div>
             </div>
         </section>
     </main>
