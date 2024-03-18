@@ -1,0 +1,57 @@
+.footer-main {
+    background-color: #111111;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-container-box {
+    grid-column: 1/5;
+}
+
+.footer-container-box .footer-logo h2 {
+    font-size: 28px;
+    padding-bottom: 10px;
+    font-weight: 200;
+    color: #FF9F59;
+}
+
+.footer-container-box hr {
+    border: 1px solid #FFB800;
+}
+
+.footer-container-box .footer-text-payment {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.footer-container-box .footer-text-payment h4, 
+.footer-container-box .footer-redes-text h4 {
+    color: #FFB800;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer-container-box .footer-payment-methods {
+    display: flex;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+.footer-container-box .footer-payment-methods img {
+    width: 125px;
+}
+
+.footer-container-box .footer-redes-text {
+    padding-bottom: 10px;
+}
+
+.footer-container-box .footer-redes-icons a i{
+    color: white;
+    font-size: 22px;
+    margin: 0 8px;
+}
+
+.footer-about {
+    grid-column: 8/12;
+}
+
