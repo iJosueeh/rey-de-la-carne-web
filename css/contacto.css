@@ -71,3 +71,35 @@
 .contacto-img img {
     width: 100%;
 }
+
+@media (max-width: 458px) {
+
+    .contacto-title {
+        color: #FFB800;
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 60px;
+        font-size: 38px;
+    }
+
+    .contacto-info {
+        grid-column: 1/-1;
+    }
+
+    .redes-title h3, .direction-title h3,
+    .phone-number-title h3 {
+    color: #FFB800;
+    font-size: 18px;
+    }
+
+    .redes-title i, .direction-title i,
+    .phone-number-title i {
+    padding-right: 10px;
+    color: #FFB800;
+    font-size: 18px;
+}
+
+    .contacto-img img {
+        display: none;
+    }
+}
