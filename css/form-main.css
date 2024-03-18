@@ -30,9 +30,11 @@
 
 .form-container .form-title {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: bold;
     position: relative;
     text-align: center;
+    padding-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .form-container form .user-details {
