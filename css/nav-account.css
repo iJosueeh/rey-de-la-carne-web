@@ -1,0 +1,84 @@
+.nav-account {
+    display: none;
+    position: absolute;
+    top: 75px;
+    left: calc(100% - 320px);
+}
+
+.nav-account-container {
+    position: fixed;
+    background-color: #212121;
+    border-radius: 5px;
+    padding: 15px 25px;
+}
+
+.nav-account-container h2 {
+    color: #FFB800;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+.nav-account-container .account-form .account-email,
+.nav-account-container .account-form .account-password {
+    color: #FFB800;
+    font-size: 15px;
+}
+
+.nav-account-container .account-form input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px 0;
+    text-indent: 8px;
+}
+
+.nav-account-container .account-form a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #0085FF;
+}
+
+.nav-account-container .account-login input {
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px 0;
+    background-color: #FFB800;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-account-container .account-login input:hover,
+.nav-account-container .account-register input:hover {
+    color: black;
+}
+
+.nav-account-container .account-register input {
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px 0;
+    background-color: #FFB800;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.account-show {
+    display: block;
+}

@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/nav-account.css">
-    <script defer src="js/nav/navbar.js"></script>
+    <script defer src="js/navbar.js"></script>
+    <script defer src="js/nav/showAccount.js"></script>
 </head>
 
 <body>
@@ -39,9 +40,9 @@
                 </li>
             </ul>
             <div class="nav-icons">
-                <a href="#"><i class="bi bi-person-circle"></i></a>
-                <a href="#"><i class="bi bi-cart"></i></a>
-                <a href="#"><i class="bi bi-globe-americas"></i></a>
+                <i class="bi bi-person-circle"></i>
+                <i class="bi bi-cart"></i>
+                <i class="bi bi-globe-americas"></i>
             </div>
             <button class="nav-toggler"><i class="bi bi-list"></i></button>
         </div>
@@ -49,11 +50,13 @@
             <div class="nav-account-container">
                 <h2>INICIAR SESION</h2>
                 <div class="account-form">
+                    <h4 class="account-email">Correo electronico</h4>
                     <input type="email" placeholder="username@email.com" required>
-                    <input type="password" placeholder="passowrd" required>
-                    <p><a href="#">Te olvidaste la contraseña?</a></p>
+                    <h4 class="account-password">Contraseña</h4>
+                    <input type="password" placeholder="password" required>
+                    <a class="account-text" href="#">Te olvidaste la contraseña?</a>
                 </div>
-                <div class="account-button">
+                <div class="account-login">
                     <input type="submit" value="INICIAR SESIÓN">
                 </div>
                 <hr>

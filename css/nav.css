@@ -51,14 +51,15 @@
     border: none;
 }
 
-.nav-icons a {
+.nav-icons i {
     color: #FFB800;
     font-size: 23px; 
     margin: 0 12px;
     transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
 
-.nav-icons a:hover {
+.nav-icons i:hover {
     color: white;
     transform: scale(1.1);
 }
